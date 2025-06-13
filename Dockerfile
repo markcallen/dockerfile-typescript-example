@@ -11,5 +11,4 @@ COPY . .
 # build the code
 RUN yarn build
 
-EXPOSE 3000
 CMD [ "npm", "start" ]
